@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid lime;
+}
+
+li::marker{
+    content: none;
+}
+
+a {
+    font-size: 2em;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: teal;
+    background-color: darkorange;
+    flex: auto;
+    transition: all 300ms linear;
+}
+
+header {
+    padding-block: 3%; /* dependend on body width*/
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    flex: 1;
+    display: flex;
+    align-content: center;
+}
+
+a:hover {
+    font-size: 3em;
+}
+
